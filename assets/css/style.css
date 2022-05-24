@@ -41,7 +41,6 @@ button {
 
 .header {    
     background: #000;
-
 }
 
 .container {
@@ -50,7 +49,7 @@ button {
     padding: 0 var(--mobile-padding);
 }
 
-.header__inner{
+.header__inner {
     display: flex;
     justify-content: space-between;
 }
@@ -114,7 +113,6 @@ button {
     margin: 40px 22px;
 }
 
-
 .social__links-item:last-child {
     margin-right: 0;
 }
@@ -139,7 +137,7 @@ button {
     margin: 0 var(--gutter);
 }
 
-.section-head__title{
+.section-head__title {
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-size: 36px;
@@ -153,9 +151,8 @@ button {
     color:white;
 }
 
-
 .section-head__title:after{
-    content: '';
+    content: ''; 
     width: 170px;
     margin: 0 auto;
     text-align: center;
@@ -165,7 +162,7 @@ button {
     margin-bottom: 0px;
 }
 
-.section-head__title_active::after{
+.section-head__title_active::after {
     border-color: #fff;
 }
 
@@ -187,8 +184,7 @@ button {
 }
 
 .awesomet__card-icon {
-    display: inline-block;
-    
+    display: inline-block;    
 }
 
 .awesomet__card-title {
@@ -218,13 +214,12 @@ button {
     background: #F5F5F5;
 }
 
-
 .price__card {
     text-align: center;
     margin-top: 79px;
 }
 
-.price__card_active{
+.price__card_active {
     transform: translateY(-20px);
 }
 
@@ -251,8 +246,7 @@ button {
     background: #333333;
     border: 2px solid #F5F5F5;
     padding-top: 30px;
-    padding-bottom: 30px;
-    
+    padding-bottom: 30px;    
 }
 
 .price__data {
@@ -291,6 +285,7 @@ button {
     line-height: 21px;
     color: #86878B;       
 }
+
 .customer {
     margin-top: 50px;
     margin-bottom: 64px;
@@ -314,7 +309,7 @@ button {
     padding: 38px 20px;
 }
 
-.customer__card-text::after{
+.customer__card-text::after {
     content: ''; 
     position: absolute;
     margin-top: 59px;
@@ -323,11 +318,11 @@ button {
     border-top: 20px solid #E2E2E2;
 }
 
-.customer__manager{
+.customer__manager {
     display: block;
     margin-top: 66px;
-
 }
+
 .customer__manager-icon {
     float:left;
 }
@@ -355,7 +350,7 @@ button {
     padding-top: 15px;    
 }
 
-.contact_nav{
+.contact_nav {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 50px 30px;
@@ -371,15 +366,14 @@ button {
     background-position: center center;
     padding-top: 50px;
     padding-bottom: 50px;
-    text-align: center;
-    
+    text-align: center;    
 }
 
 .section-head_active {
     color: white;
 }
 
-.section-head__title_active::after{
+.section-head__title_active::after {
     border-color: #86878B;
 }
 
@@ -401,7 +395,7 @@ button {
     text-align: center;
 }
 
-.button-download_Send{
+.button-download_Send {
     margin:0;
     background: #EC7979;
     text-align: center;
@@ -448,7 +442,7 @@ button {
     margin-bottom: 50px;
 }
 
-.social_active{
+.social_active {
     background: #000;
     padding-bottom: 27px;
 }
@@ -457,7 +451,7 @@ button {
     fill:#EC7979;
 }
 
-.text_themes{
+.text_themes {
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
@@ -465,10 +459,10 @@ button {
     text-align: center;
     }
 
-    .col-12 {
-        max-width: 100%;
-    }
+.col-12 {
+    max-width: 100%;
+}
 
-    .element_center{
+.element_center {
     justify-content: center;
-    }
+}
