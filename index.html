@@ -20,7 +20,20 @@
                 </a>
                 <nav class="header__nav">
                     <ul class="header__menu">
-                        <li class="header__menu-item"><a href="" class="header__menu-link">Features</a></li>
+                        <li class="header__menu-item  header__menu-link_active header__menu-link_has-child"><a href="" class="header__menu-link">Features</a>
+                            <ul class="sub-menu">
+                                <li class="sub-menu-item sub-menu-item_active sub-menu-item_has-child"><a href="" class="sub-menu-link">Project</a>
+                                    <ul class="sub-menu">
+                                        <li class="sub-menu-item"><a href="" class="sub-menu-link">Architecture</a></li>
+                                        <li class="sub-menu-item"><a href="" class="sub-menu-link">Interior</a></li>
+                                        <li class="sub-menu-item"><a href="" class="sub-menu-link">Landscape</a></li>
+                                    </ul>
+                                </li>
+                                <li class="sub-menu-item"><a href="" class="sub-menu-link">Study</a></li>
+                                <li class="sub-menu-item"><a href="" class="sub-menu-link">Сonnection</a></li>
+                                <li class="sub-menu-item"><a href="" class="sub-menu-link">Сommunication</a></li>
+                            </ul>
+                        </li>
                         <li class="header__menu-item"><a href="" class="header__menu-link">About</a></li>
                         <li class="header__menu-item"><a href="" class="header__menu-link">Pricing</a></li>
                         <li class="header__menu-item"><a href="" class="header__menu-link">Reviews</a></li>
@@ -35,9 +48,20 @@
             <div class="row" >
                 <div class="col-7 promo_card">                    
                         <a href="#!" class="promo__logo"><img src="./images/promo/logo.png" alt="Axit"></a>
-                            <h1 class="promo__title">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h2>         
+                            <h1 class="promo__title">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h1>         
                             <p class="promo__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                        <a href="#!" class="promo__button-download">Download</a>
+                        <button class="promo__button-download" id = "myBtn">Download</button>
+                        <div id = "mymodal" class="modal">
+                            <div class="modal__content">
+                                <span class="modal__close">&times;</span>
+                                <figure class="modal__figure">
+                                    <input class = "modal__input" type="text" placeholder="Имя">
+                                    <input class = "modal__input" type="text" placeholder="Почта">
+                                    <input class = "modal__input" type="tel" placeholder="Телефон" pattern="2[0-9]{3}-[0-9]{3}">
+                                    <button class="modal__button-send">Отправить</button>
+                                </figure>
+                            </div>
+                        </div>
                     </div> 
                 <div class="col-5">
                     <div class="promo__form">
@@ -72,6 +96,69 @@
         </div>
     </div> 
 </section>
+<Section class="tabs">
+    <div class="container">
+        <div class="tabs__cards">
+            <input type="radio" id="tab1" name="tab-group" checked>
+                <label for="tab1" class="tabs__tab-label">TAB 1</label>
+                <input type="radio" id="tab2" name="tab-group">
+                <label for="tab2" class="tabs__tab-label">TAB 2</label>
+                <input type="radio" id="tab3" name="tab-group">
+                <label for="tab3" class="tabs__tab-label">TAB 3</label>
+                <div id ="tabs__content1">
+                    <div class="row">
+                        <div class="col-6 tabs__content">
+                            <h2 class="tabs__content-title">Tabs with soft transitioning effect.</h2>
+                            <p class="tabs__content-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod  
+                                bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra 
+                                justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
+                                penatibus et magnis dis parturient montes.                
+                                <br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+                                bibendum laoreet.</p>
+                            <a href="#!" class="tabs__content-button-download">Download</a>
+                        </div>
+                        <div class="col-5 tabs__wrap">
+                            <img class="tabs__wrap-img" src="./images/tabs/pizanskaya-bashnya.jpg" alt="Statue of Liberty">
+                        </div>
+                    </div>
+                </div>            
+                <div id="tabs__content2">
+                    <div class="row">
+                        <div class="col-6 tabs__content">
+                            <h2 class="tabs__content-title">Tabs with soft transitioning effect.</h2>
+                            <p class="tabs__content-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+                                bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra 
+                                justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
+                                penatibus et magnis dis parturient montes.
+                                <br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+                                bibendum laoreet.</p>
+                            <a href="#!" class="tabs__content-button-download">Download</a>
+                        </div>
+                        <div class="col-5 tabs__wrap">
+                            <img class="tabs__wrap-img" src="./images/tabs/statue_of_liberty.jpg" alt="Statue of Liberty">
+                        </div>
+                    </div>
+                </div> 
+                <div id="tabs__content3">
+                    <div class="row">
+                        <div class="col-6 tabs__content">
+                            <h2 class="tabs__content-title">Tabs with soft transitioning effect.</h2>
+                            <p class="tabs__content-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+                                bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra 
+                                justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
+                                penatibus et magnis dis parturient montes.                
+                                <br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+                                bibendum laoreet.</p>
+                            <a href="#!" class="tabs__content-button-download">Download</a>
+                        </div>
+                        <div class="col-5 tabs__wrap">
+                            <img class="tabs__wrap-img" src="./images/tabs/tour-eiffel.jpg" alt="Statue of Liberty">
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+</Section>
 <section class="awesomet">
     <div class="container">
         <div class="section-head">
@@ -251,5 +338,6 @@
         <h5 class="footer__text">© 2015 Axure Themes</h5>
     </div>        
 </footer>
+<script src="js/script.js"></script>
 </body>
 </html>
